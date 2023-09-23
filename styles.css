@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.header,
+.footer {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpage {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
