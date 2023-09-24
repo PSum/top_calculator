@@ -50,7 +50,9 @@ p{
     align-items: center;
 }
 
-.grid-item {
+.grid-item,
+.display
+ {
     display: flex;
     background-color: white;
     border-radius: 8px;
